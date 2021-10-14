@@ -1,9 +1,0 @@
-RGB=imread('Jellyfish.jpg');
-figure(1);
-imshow(RGB);
-GRAY=rgb2gray(RGB);
-figure(2);
-imshow(GRAY);
-DCT=dct2(GRAY);
-figure(3);
-imshow(log(abs(DCT)),[]);
